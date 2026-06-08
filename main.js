@@ -274,7 +274,7 @@ function switchLang(lang) {
     draw() {
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(79,70,229,${this.opacity})`;
+      ctx.fillStyle = `rgba(99,102,241,${this.opacity * 0.7})`;
       ctx.fill();
     }
   }
@@ -297,8 +297,8 @@ function switchLang(lang) {
         const dist = Math.sqrt(dx * dx + dy * dy);
         if (dist < maxDist) {
           const alpha = (1 - dist / maxDist) * 0.12;
-          ctx.strokeStyle = `rgba(79,70,229,${alpha})`;
-          ctx.lineWidth = 0.5;
+          ctx.strokeStyle = `rgba(99,102,241,${alpha * 0.8})`;
+          ctx.lineWidth = 0.6;
           ctx.beginPath();
           ctx.moveTo(particles[i].x, particles[i].y);
           ctx.lineTo(particles[j].x, particles[j].y);
@@ -311,8 +311,8 @@ function switchLang(lang) {
       );
       if (md < maxDist) {
         const alpha = (1 - md / maxDist) * 0.4;
-        ctx.strokeStyle = `rgba(6,182,212,${alpha})`;
-        ctx.lineWidth = 0.8;
+        ctx.strokeStyle = `rgba(8,145,178,${alpha * 0.9})`;
+        ctx.lineWidth = 1;
         ctx.beginPath();
         ctx.moveTo(particles[i].x, particles[i].y);
         ctx.lineTo(mouseX, mouseY);
