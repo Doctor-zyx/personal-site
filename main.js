@@ -40,7 +40,7 @@ const i18n = {
     'projects.chain.title': 'CHAIN 脑出血临床研究',
     'projects.chain.desc': '中药 FYTF-919（中风醒脑口服液）治疗急性脑出血的多中心、随机、安慰剂对照临床试验 — GCP 项目参与者，成果发表于 <em>The Lancet</em> (2024)',
     'projects.nsfc.title': 'miR-155 与缺血再灌注研究',
-    'projects.nsfc.desc': 'miR-155 通过 p38MAPK 信号通路在缺血再灌注中的作用及大蒜素 A 的干预 — 国家自然科学基金项目',
+    'projects.nsfc.desc': 'miR-155 通过 p38MAPK 信号通路在缺血再灌注中的作用及大蒜素 A 的干预 — 广西自然科学基金（地区基金）',
 
     'contact.title': '联系方式',
     'contact.email': '📧 发送邮件',
@@ -80,7 +80,7 @@ const i18n = {
     'projects.chain.title': 'CHAIN ICH Clinical Trial',
     'projects.chain.desc': 'Traditional Chinese medicine FYTF-919 for acute intracerebral haemorrhage — multicentre, randomised, placebo-controlled trial; GCP participant, results published in <em>The Lancet</em> (2024)',
     'projects.nsfc.title': 'miR-155 & Ischemia-Reperfusion',
-    'projects.nsfc.desc': 'Role of miR-155 via p38MAPK pathway in ischemia-reperfusion and the intervention of allicin A — National Natural Science Foundation of China',
+    'projects.nsfc.desc': 'Role of miR-155 via p38MAPK pathway in ischemia-reperfusion and the intervention of allicin A — Guangxi Natural Science Foundation (Regional Fund)',
 
     'contact.title': 'Contact',
     'contact.email': '📧 Get in Touch',
