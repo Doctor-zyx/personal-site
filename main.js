@@ -223,6 +223,14 @@ function switchLang(lang) {
   }, 250);
 }
 
+// ─── Init i18n on page load ──────────────────
+(function () {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (i18n.zh[key]) el.innerHTML = i18n.zh[key];
+  });
+})();
+
 // ─── Email Obfuscation ──────────────────────
 (function () {
   const user = 'Doctor_zyx_cwq';
