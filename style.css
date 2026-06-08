@@ -165,7 +165,17 @@ section { padding: 100px 0; position: relative; }
 .hero-title {
   font-size: 1.4rem; font-weight: 500;
   color: var(--text-secondary); letter-spacing: 3px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+}
+.hero-phd {
+  font-size: 1rem; font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 16px;
+  padding: 6px 18px;
+  background: var(--accent-light);
+  border-radius: 20px;
+  display: inline-block;
+  letter-spacing: 1px;
 }
 .hero-sub {
   font-size: 1.05rem; color: var(--text-secondary); margin-bottom: 48px;
@@ -530,6 +540,7 @@ footer {
 @media (max-width: 768px) {
   .hero-name { font-size: 2.2rem; }
   .hero-title { font-size: 1.1rem; }
+  .hero-phd { font-size: 0.85rem; padding: 4px 14px; }
   .hero-sub { font-size: 0.85rem; }
   .hero-avatar { width: 80px; height: 80px; font-size: 1.8rem; }
   #hero { background: linear-gradient(160deg, #eef2ff 0%, #faf5ff 40%, #ecfeff 100%); }

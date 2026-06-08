@@ -6,7 +6,8 @@
 // ─── I18N Data ──────────────────────────────
 const i18n = {
   zh: {
-    'hero.title': '神经外科研究员',
+    'hero.title': '神经外科硕士',
+    'hero.phd': '暨南大学 · 重症医学科（专业博士）',
     'hero.sub': '脑血管病 & 神经重症 | 8篇SCI · 累计IF≈102',
     'hero.scroll': '了解更多',
 
@@ -46,7 +47,8 @@ const i18n = {
     'contact.email': '📧 发送邮件',
   },
   en: {
-    'hero.title': 'Neurosurgery Researcher',
+    'hero.title': 'Neurosurgery MSc',
+    'hero.phd': 'Jinan University · Critical Care Medicine (Professional Doctorate)',
     'hero.sub': 'Cerebrovascular Disease & Neurocritical Care | 8 SCI Papers · Cumulative IF≈102',
     'hero.scroll': 'Learn More',
 
