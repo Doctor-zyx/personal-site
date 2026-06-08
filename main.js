@@ -95,8 +95,8 @@ const publications = [
     authors: 'Zhou YX, Tian S',
     if: 55,
     jcr: 'Q1',
-    status: 'Accepted, in production',
-    statusLabel: 'Accepted'
+    status: 'Published',
+    statusLabel: 'Published'
   },
   {
     journal: 'JAMA Neurology',
@@ -104,8 +104,8 @@ const publications = [
     authors: 'Zhou YX, Zhang GB',
     if: 21.4,
     jcr: 'Q1',
-    status: 'Accepted, in production',
-    statusLabel: 'Accepted'
+    status: 'Published',
+    statusLabel: 'Published'
   },
   {
     journal: 'Annals of Neurology',
@@ -122,8 +122,8 @@ const publications = [
     authors: 'Zhou YX, Peng ZZ, Wang WB',
     if: 5.0,
     jcr: 'Q1',
-    status: 'Accepted, in production',
-    statusLabel: 'Accepted'
+    status: 'Published',
+    statusLabel: 'Published'
   },
   {
     journal: 'Frontiers in Neurology',
