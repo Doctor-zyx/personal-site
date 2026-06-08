@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zhou Yunxiang — Neurosurgery Researcher | Personal Academic Website">
+  <title>Zhou Yunxiang — Neurosurgery Researcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Language Toggle -->
+  <div class="lang-switch">
+    <button id="langZh" class="lang-btn active" onclick="switchLang('zh')">中</button>
+    <span class="lang-divider">|</span>
+    <button id="langEn" class="lang-btn" onclick="switchLang('en')">EN</button>
+  </div>
+
+  <!-- Navigation Dots -->
+  <nav class="nav-dots">
+    <a href="#hero" class="dot active" data-section="hero"></a>
+    <a href="#about" class="dot" data-section="about"></a>
+    <a href="#education" class="dot" data-section="education"></a>
+    <a href="#publications" class="dot" data-section="publications"></a>
+    <a href="#honors" class="dot" data-section="honors"></a>
+    <a href="#skills" class="dot" data-section="skills"></a>
+    <a href="#projects" class="dot" data-section="projects"></a>
+    <a href="#contact" class="dot" data-section="contact"></a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-content">
+      <div class="hero-avatar">ZYX</div>
+      <h1 class="hero-name">周云祥</h1>
+      <h2 class="hero-title" data-i18n="hero.title">Neurosurgery Researcher</h2>
+      <p class="hero-sub" data-i18n="hero.sub">脑血管病 &amp; 神经重症 | 8篇SCI · 累计IF≈102</p>
+      <div class="hero-scroll">
+        <span data-i18n="hero.scroll">了解更多</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h3 class="section-title" data-i18n="about.title">About Me</h3>
+
+      <!-- Journal Badge Bar -->
+      <div class="journal-bar">
+        <div class="journal-badge jama"><span>JAMA</span><small>IF 55</small></div>
+        <div class="journal-badge jama-neurol"><span>JAMA Neurology</span><small>IF 21.4</small></div>
+        <div class="journal-badge ann-neurol"><span>Ann. Neurol.</span><small>IF 7.7</small></div>
+        <div class="journal-badge jth"><span>J. Thromb. Haemost.</span><small>IF 5.0</small></div>
+      </div>
+
+      <!-- Key Stats -->
+      <div class="about-stats-row">
+        <div class="stat-card large">
+          <span class="stat-num" data-target="8">0</span>
+          <span class="stat-label">SCI Papers</span>
+        </div>
+        <div class="stat-card large highlight">
+          <span class="stat-num" data-target="102">0</span>
+          <span class="stat-label">Cumulative IF</span>
+        </div>
+        <div class="stat-card large">
+          <span class="stat-num" data-target="5">0</span>
+          <span class="stat-label">JCR Q1 Papers</span>
+        </div>
+        <div class="stat-card large">
+          <span class="stat-num" data-target="2">0</span>
+          <span class="stat-label" data-i18n="about.stats.grants">Grants</span>
+        </div>
+      </div>
+
+      <!-- Bio -->
+      <div class="about-text">
+        <p data-i18n="about.p1"></p>
+        <p data-i18n="about.p2"></p>
+      </div>
+
+      <div class="research-tags">
+        <span class="tag">Cerebrovascular Disease</span>
+        <span class="tag">Neurocritical Care</span>
+        <span class="tag">Ischemic Stroke</span>
+        <span class="tag">ICH Surgery</span>
+        <span class="tag">Clinical Trials</span>
+        <span class="tag">Bioinformatics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <h3 class="section-title" data-i18n="edu.title">Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2020.09 — 2023.08</span>
+            <h4 data-i18n="edu.ms.title">Master of Medicine — Neurosurgery</h4>
+            <p data-i18n="edu.ms.school">桂林医学院</p>
+            <p data-i18n="edu.ms.advisor">导师：王文波 教授</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <span class="tl-date">2014.09 — 2019.08</span>
+            <h4 data-i18n="edu.bs.title">Bachelor of Medicine</h4>
+            <p data-i18n="edu.bs.school">南华大学</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="container">
+      <h3 class="section-title" data-i18n="pub.title">Selected Publications</h3>
+      <p class="section-desc" data-i18n="pub.desc">累计8篇SCI，总IF≈102</p>
+      <div class="pub-grid" id="pubGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- HONORS -->
+  <section id="honors">
+    <div class="container">
+      <h3 class="section-title" data-i18n="honors.title">Honors &amp; Awards</h3>
+      <div class="honor-grid">
+        <div class="honor-card"><div class="honor-icon">🎖</div><h4 data-i18n="honors.national">国家奖学金</h4><p>National Scholarship</p></div>
+        <div class="honor-card"><div class="honor-icon">🏅</div><h4 data-i18n="honors.first">一等奖学金</h4><p>First-Class Scholarship</p></div>
+        <div class="honor-card"><div class="honor-icon">⭐</div><h4 data-i18n="honors.top10">十佳研究生</h4><p>Top Ten Graduate Students</p></div>
+        <div class="honor-card"><div class="honor-icon">🌟</div><h4 data-i18n="honors.outstanding">优秀研究生</h4><p>Outstanding Graduate Student</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h3 class="section-title" data-i18n="skills.title">Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-cat">
+          <h4 data-i18n="skills.lang">语言能力</h4>
+          <div class="skill-bar"><span class="skill-name">English (CET-6)</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+          <div class="skill-bar"><span class="skill-name">Chinese (Native)</span><div class="bar"><div class="fill" style="width:100%"></div></div></div>
+        </div>
+        <div class="skill-cat">
+          <h4 data-i18n="skills.programming">编程与数据分析</h4>
+          <div class="skill-bar"><span class="skill-name">Python / NumPy / pandas</span><div class="bar"><div class="fill" style="width:70%"></div></div></div>
+          <div class="skill-bar"><span class="skill-name">SPSS / GraphPad Prism</span><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+          <div class="skill-bar"><span class="skill-name">Adobe Illustrator</span><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+          <div class="skill-bar"><span class="skill-name">EEG Signal Analysis</span><div class="bar"><div class="fill" style="width:65%"></div></div></div>
+        </div>
+        <div class="skill-cat">
+          <h4 data-i18n="skills.lab">实验室技术</h4>
+          <div class="skill-bar"><span class="skill-name">Immunohistochemistry</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+          <div class="skill-bar"><span class="skill-name">Western Blot</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+          <div class="skill-bar"><span class="skill-name">PCR</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h3 class="section-title" data-i18n="projects.title">Research Projects</h3>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-badge">GCP</div>
+          <h4 data-i18n="projects.chain.title">CHAIN 脑出血临床研究</h4>
+          <p data-i18n="projects.chain.desc">中药 FYTF-919（中风醒脑口服液）治疗急性脑出血的多中心、随机、安慰剂对照临床试验 — 发表于 <em>The Lancet</em> (2024)</p>
+        </div>
+        <div class="project-card">
+          <div class="project-badge ns">NSFC</div>
+          <h4 data-i18n="projects.nsfc.title">miR-155 与缺血再灌注研究</h4>
+          <p data-i18n="projects.nsfc.desc">miR-155 通过 p38MAPK 信号通路在缺血再灌注中的作用及大蒜素 A 的干预 — 国家自然科学基金项目</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h3 class="section-title" data-i18n="contact.title">Contact</h3>
+      <div class="contact-center">
+        <a class="contact-btn" href="#" id="emailLink" data-i18n="contact.email">📧 Get in Touch</a>
+        <p id="emailDisplay"></p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2026 Zhou Yunxiang. All rights reserved.</p>
+    </footer>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
