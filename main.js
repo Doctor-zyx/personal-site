@@ -7,7 +7,7 @@
 const i18n = {
   zh: {
     'hero.title': '神经外科硕士',
-    'hero.phd': '暨南大学 · 重症医学科（专业博士）',
+    'hero.phd': '暨南大学 · 重症医学科（专业型博士）',
     'hero.sub': '脑血管病 & 神经重症 | 8篇SCI · 累计IF≈102',
     'hero.scroll': '了解更多',
 
@@ -17,6 +17,8 @@ const i18n = {
     'about.stats.grants': '科研项目',
 
     'edu.title': '教育背景',
+    'edu.phd.title': '专业型博士 — 重症医学',
+    'edu.phd.school': '暨南大学',
     'edu.ms.title': '医学硕士 — 神经外科',
     'edu.ms.school': '桂林医学院',
     'edu.ms.advisor': '导师：王文波 教授',
@@ -48,7 +50,7 @@ const i18n = {
   },
   en: {
     'hero.title': 'Neurosurgery MSc',
-    'hero.phd': 'Jinan University · Critical Care Medicine (Professional Doctorate)',
+    'hero.phd': 'Jinan University · Critical Care Medicine (Clinical Doctorate)',
     'hero.sub': 'Cerebrovascular Disease & Neurocritical Care | 8 SCI Papers · Cumulative IF≈102',
     'hero.scroll': 'Learn More',
 
@@ -58,6 +60,8 @@ const i18n = {
     'about.stats.grants': 'Research Grants',
 
     'edu.title': 'Education',
+    'edu.phd.title': 'Clinical Doctorate — Critical Care Medicine',
+    'edu.phd.school': 'Jinan University',
     'edu.ms.title': 'Master of Medicine — Neurosurgery',
     'edu.ms.school': 'Guilin Medical University',
     'edu.ms.advisor': 'Advisor: Prof. Wang Wenbo',
